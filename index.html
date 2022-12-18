@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img  class="weather_img" id="clear_sky" src="./img/clear-sky-day.jpg" alt="">
+    <img  class="weather_img" id="clear_sky_night" src="./img/clear-sky-night.jpg" alt="">
+    <img  class="weather_img" id="few_clouds_day"  src="./img/few_clouds_day.jpg" alt="">
+    <img  class="weather_img" id="few_clouds_night" src="./img/few_clouds_night.jpg" alt="">
+    <img class="weather_img" id="scattered_clouds_day" src="./img/scattered_clouds_day.jpg" alt="">
+    <img class="weather_img" id="scattered_clouds_night" src="./img/scattered_clouds_night.jpg" alt="">
+    <img class="weather_img" id="broken_clouds_day" src="./img/broken_clouds_day.jpg" alt="">
+    <img class="weather_img" id="broken_clouds_night" src="./img/broken_clouds_night.jpg" alt="">
+    <img  class="weather_img" id="shower_rain_day" src="./img/shower_rain_day.jpg" alt="">
+    <img class="weather_img" id="shower_rain_night" src="./img/shower_rain_night.jpg" alt="">
+    <img  class="weather_img" id="rain_day" src="./img/rain_day.jpg" alt="">
+    <img class="weather_img" id="rain_night" src="./img/rain night.jpg" alt="">
+    <img class="weather_img" id="thunderstorm_day" src="./img/thunderstorm_day.jpg" alt="">
+    <img class="weather_img" id="thunderstorm_night" src="./img/thunderstorm_night.jpg" alt="">
+    <img class="weather_img" id="snow_day" src="./img/snow_day.jpg" alt="">
+    <img class="weather_img" id="snow_night" src="./img/snow_night.jpg" alt="">
+    <img class="weather_img" id="mist_day" src="./img/mist_day.jpg" alt="">
+    <img class="weather_img" id="mist_night" src="./img/mist_night.jpg" alt="">
+
+    <div class="main-container">
+        <form>
+            <input id="city-name" type="text" placeholder="Enter a city name" required>
+            <button type="submit">Search</button>
+        </form>
+        <div class="inner-container">
+            <div class="loading">
+                <div class="spinner"></div>
+            </div>
+            <div class="data">
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
