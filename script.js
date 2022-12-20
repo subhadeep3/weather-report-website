@@ -39,7 +39,7 @@ function resetOpacity(){
     thunderstorm_night.style.opacity=0
     snow_day.style.opacity=0
     snow_night.style.opacity=0
-    mist_day.style,opacity=0
+    mist_day.style.opacity=0
     mist_night.style.opacity=0
 
 
